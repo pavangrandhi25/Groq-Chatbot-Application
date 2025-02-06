@@ -10,7 +10,7 @@ A multi-model chatbot interface AI platform leveraging Groq's accelerated infere
 - API key security through environment variables
 
 ## Installation
-git clone https://github.com/pavangrandhi25/groq-chatbot.git
+git clone https://github.com/pavangrandhi25/Groq-Chatbot-Application.git
 cd groq-chatbot
 
 ## Create a virtual environment 
@@ -22,10 +22,10 @@ pip install -r requirements.txt
 
 ## Configuration
 Create `.env` file:
-    echo "groq_api_key=your_api_key_here" > .env
+echo "groq_api_key=your_api_key_here" > .env
 
 ## Usage
-streamlit run groq_app.py
+streamlit run app.py
 
 ## Supported Models
 - Gemma2-9B-IT
