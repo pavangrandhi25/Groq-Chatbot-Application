@@ -1,4 +1,0 @@
-# ETL (Extract Transform Load)
-# Extract: Read the PCAP file 
-# Transform: Parse and separate protocols/frames (WiFi, Ethernet, etc., then WiFi subtypes like beacon, RTS, CTS) 
-# Load: Store organized results 
