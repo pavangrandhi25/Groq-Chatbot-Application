@@ -1,0 +1,27 @@
+{
+  "base_url": "http://127.0.0.1:58000",
+  "timeout": "15",
+  "verify_tls": "true",
+  "service_templates": {
+    "aaa": {
+      "ipAddress": "",
+      "key": ""
+    },
+    "dns": {
+      "ipAddress": "1.1.1.1",
+      "name": "sdnnetworking.com"
+    },
+    "netflow": {
+      "port": "",
+      "reflectionIp": ""
+    },
+    "ntp": {
+      "serverIp": "192.168.1.3"
+    },
+    "syslog": [
+      {
+        "serverIp": "192.168.1.3"
+      }
+    ]
+  }
+}
